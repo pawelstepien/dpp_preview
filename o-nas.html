@@ -14,17 +14,19 @@
     </style>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=latin-ext" rel="stylesheet">
-    <link href="./build/app.css?cachebuster" rel="stylesheet">
+    <link href="./build/app.css" rel="stylesheet">
     <title>O nas - Dom Pod Poznaniem</title>
 </head>
 
 <body>
     <header id="header">
         <div class="header-left">
-            <picture class="logo">
-                <img src="./build/media/logo.png" alt="logo">
-            </picture>
-
+            <a href="./home.html" class="logo-anchor">
+                <picture class="logo">
+                    <img src="./build/media/logo.png" alt="logo">
+                </picture>
+            </a>
+    
             <nav id="navigation">
                 <ul class="navigation-links-list" id="navigation-links-list">
                     <li class="navigation-links-list-item">
@@ -38,7 +40,7 @@
                         </a>
                     </li>
                     <li class="navigation-links-list-item">
-                        <a class="navigation-link-anchor" href="/kontakt" title="Kontakt">
+                        <a class="navigation-link-anchor" href="./kontakt" title="Kontakt">
                             Kontakt
                         </a>
                     </li>
@@ -581,6 +583,6 @@
     <img src="" alt="" id="popup-image">
     </div>
 
-    <script src="./build/app.js?cachebuster"></script>
+    <script src="./build/app.js?cache"></script>
 </body>
 </html>
