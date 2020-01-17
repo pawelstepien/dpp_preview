@@ -1,4 +1,3 @@
-<?php /* Template Name: Home */ ?>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
@@ -90,7 +89,9 @@
     <main id="home-page" class="page-main">
         <div class="home-page-house-wrapper" id="home-page-house-wrapper">
             <picture class="home-page-house" id="home-page-house">
-                <img src="./build/media/home-page-parallax-house.jpg" alt="Dom z zewnątrz">
+                <source srcset="./build/media/home-page-parallax-house.jpg?version=0.0"
+                media="(min-aspect-ratio: 2/1)">
+                <img src="./build/media/home-page-house.jpg" alt="Dom z zewnątrz">
             </picture>
         </div>
         <div class="home-page-content">
@@ -109,7 +110,7 @@
                     Komfortowe rozwiązania funkcjonalne  w połączeniu 
                     z&nbsp;najlepszymi rozwiązaniami technicznymi i najwyższej klasy materiałami. 
                 </p>
-                <a href="./o-nas.html" title="Dowiedz się więcej">
+                <a href="./dom-w-swarzedzu.html" title="Dowiedz się więcej">
                     <button class="button">
                         <span class="button-text">Dowiedz się więcej</span>
                     </button>
